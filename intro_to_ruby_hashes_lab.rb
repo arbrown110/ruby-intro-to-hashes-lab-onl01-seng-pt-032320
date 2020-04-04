@@ -1,5 +1,6 @@
 def new_hash
   {}
+<<<<<<< HEAD
 end
 
 def actor
@@ -43,6 +44,42 @@ def monopoly_with_third_tier
       }
     }
   }
+=======
+
+end
+
+def actor
+  actor ={name: "Dwayne The Rock Johnson"}
+end
+
+def monopoly
+	monopoly = {
+	  railroad {}
+    
+end
+
+def monopoly_with_second_tier
+	monopoly = {
+	  railroad {pieces : 4},
+	  name{},
+	  rent_in_dollars {},
+	}
+end
+
+def monopoly_with_third_tier
+	monopoly = {
+	  railroad {pieces : 4},
+	  name{
+	    
+	  },
+	  rent_in_dollars {
+	   :one_piece_owned => 25,
+	   :two_piece_owned => 50,
+	   :third_place_owned => 100,
+	   :fourth_piece_owned => 200
+	  },
+	}
+>>>>>>> a4df6e031d85b8246a1e1190424f5f766ca2aa8d
 end
 
 def monopoly_with_fourth_tier
